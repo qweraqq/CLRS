@@ -1,0 +1,13 @@
+/*
+  2015-03-12
+  code for CLRS exercise 2-4
+  modify merge sort to calculate inversions
+ */
+#ifndef _INVERSIONS_H
+#define _INVERSIONS_H
+
+
+int inversion_count(int*,int,int);
+int inversion_count_merge(int*,int,int,int);
+
+#endif
